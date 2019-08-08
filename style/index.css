@@ -1,0 +1,195 @@
+body,
+html,
+#app {
+  height: 100%;
+}
+
+body {
+  font-size: 12px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+#app > header > .day {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0.26667rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+
+#app > header > .day > em {
+  font-size: 20px;
+}
+
+#app > header > .day > .day-one {
+  font-size: 20px;
+}
+
+#app > header > .day > div:last-child {
+  font-size: 15px;
+}
+
+#app > section {
+  flex: 1;
+  overflow: auto;
+}
+
+#app > section > #content {
+  height: 1000px;
+}
+
+#app > section > #content > .day-two {
+  padding: 0.53333rem 0.26667rem;
+}
+
+#app > section > #content > .day-two > .day-three {
+  display: flex;
+  justify-content: space-between;
+}
+
+#app > section > #content > .day-two > .day-three > .day-four {
+  width: 0.8rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  color: white;
+  border: 1px solid red;
+  background: red;
+  text-align: center;
+}
+
+#app > section > #content > .day-two > .day-three > h1 {
+  color: red;
+}
+
+#app > section > #content > .day-two > .day-five {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+}
+
+#app > section > #content > .day-two > .day-five > .si {
+  margin-top: 20px;
+  width: 0.53333rem;
+  height: 0.53333rem;
+  line-height: 0.53333rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #FFF;
+  text-align: center;
+  background-color: #F04146;
+}
+
+#app > section > #content > .day-two > .day-five > .si > span {
+  color: white;
+}
+
+#app > section > #content > .day-two > .day-five > .day-six > img {
+  width: 1.6rem;
+  height: 1.86667rem;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve {
+  width: 5.52rem;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > h1 {
+  color: #ccc;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.93333rem;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > h2 {
+  color: red;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine {
+  position: relative;
+  width: 2.46667rem;
+  height: 0.6rem;
+  line-height: 0.72rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine > .day-nine {
+  position: absolute;
+  top: -65px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine > .day-nine > .iconfont {
+  margin-top: 12px;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine > input {
+  float: left;
+  width: 1.33333rem;
+  line-height: 0.6rem;
+  padding: 0;
+  border: 0 none;
+  outline: 0 none;
+  text-align: center;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine > .head-ten,
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine .hong {
+  float: left;
+  width: 0.53333rem;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine .head-ten {
+  border-right: 1px solid #ccc;
+}
+
+#app > section > #content > .day-two > .day-five > .day-senve > .day-eight > .head-nine .hong {
+  border-left: 1px solid #ccc;
+}
+
+#app > footer {
+  padding-top: 0.13333rem;
+}
+
+#app > footer > .hong {
+  display: flex;
+  justify-content: space-between;
+  height: 1.46667rem;
+  line-height: 1.46667rem;
+}
+
+#app > footer > .hong > .hong-one > .iconfont {
+  font-size: 20px;
+}
+
+#app > footer > .hong > .hong-one > span:last-child {
+  font-size: 20px;
+}
+
+#app > footer > .hong > .hong-two > span:first-child {
+  font-size: 20px;
+}
+
+#app > footer > .hong > .hong-two > span:last-child {
+  font-size: 20px;
+  color: red;
+}
+
+#app > footer > .hong > .hong-three {
+  width: 3.34667rem;
+  height: 1.46667rem;
+  line-height: 1.46667rem;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid red;
+  background: red;
+  color: white;
+}

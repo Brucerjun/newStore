@@ -1,0 +1,208 @@
+@function px2rem($px, $rem : 75) {
+    @return $px / $rem * 1rem;
+}
+
+body,
+html,
+#app {
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+
+    >header {
+        >.day {
+            display: flex;
+            justify-content: space-between;
+            padding: px2rem(0) px2rem(20);
+            height: px2rem(90);
+            line-height: px2rem(90);
+
+            >em {
+                font-size: 20px;
+            }
+
+            >.day-one {
+                font-size: 20px;
+            }
+
+            >div:last-child {
+                font-size: 15px;
+            }
+        }
+    }
+
+    >section {
+        flex: 1;
+        overflow: auto;
+
+        >#content {
+            height: 1000px;
+
+            >.day-two {
+                padding: px2rem(40) px2rem(20);
+
+                // border-bottom: 3px solid #ccc;
+                >.day-three {
+                    display: flex;
+                    justify-content: space-between;
+
+                    >.day-four {
+                        width: px2rem(60);
+                        height: px2rem(30);
+                        line-height: px2rem(30);
+                        color: white;
+                        border: 1px solid red;
+                        background: red;
+                        text-align: center;
+                    }
+
+                    >h1 {
+                        color: red;
+                    }
+                }
+
+                >.day-five {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: px2rem(30);
+
+                    >.si {
+                        margin-top: 20px;
+                        width: 0.53333rem;
+                        height: 0.53333rem;
+                        line-height: 0.53333rem;
+                        border-radius: 50%;
+                        border: 1px solid #ccc;
+                        background-color: #FFF;
+                        text-align: center;
+                        background-color: #F04146;
+                        >span {
+                            color: white;
+                        }
+                    }
+
+                    >.day-six {
+                        >img {
+                            width: px2rem(120);
+                            height: px2rem(140);
+                        }
+                    }
+
+                    >.day-senve {
+                        width: px2rem(414);
+
+                        >h1 {
+                            color: #ccc;
+                        }
+
+                        >.day-eight {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: px2rem(70);
+
+                            >h2 {
+                                color: red;
+                            }
+
+                            >.head-nine {
+                                position: relative;
+                                width: px2rem(185);
+                                height: px2rem(45);
+                                line-height: px2rem(54);
+                                border: 1px solid #ccc;
+                                text-align: center;
+
+                                >.day-nine {
+                                    position: absolute;
+                                    top: -65px;
+                                    left: 50px;
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    >.iconfont {
+                                        margin-top: 12px;
+                                    }
+                                }
+
+                                >input {
+                                    float: left;
+                                    width: px2rem(100);
+                                    line-height: px2rem(45);
+                                    padding: 0;
+                                    border: 0 none;
+                                    outline: 0 none;
+                                    text-align: center;
+                                }
+
+                                >.head-ten,
+                                .hong {
+                                    float: left;
+                                    width: px2rem(40);
+                                }
+
+                                .head-ten {
+                                    border-right: 1px solid #ccc;
+                                }
+
+                                .hong {
+                                    border-left: 1px solid #ccc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >footer {
+        padding-top: px2rem(10);
+
+        >.hong {
+            display: flex;
+            justify-content: space-between;
+            height: px2rem(110);
+            line-height: px2rem(110);
+
+            >.hong-one {
+                >.iconfont {
+                    font-size: 20px;
+                }
+
+                >span:last-child {
+                    font-size: 20px;
+                }
+            }
+
+            >.hong-two {
+                >span:first-child {
+                    font-size: 20px;
+                }
+
+                >span:last-child {
+                    font-size: 20px;
+                    color: red;
+                }
+            }
+
+            >.hong-three {
+                width: px2rem(251);
+                height: px2rem(110);
+                line-height: px2rem(110);
+                text-align: center;
+                font-size: 20px;
+                border: 1px solid red;
+                background: red;
+                color: white;
+
+            }
+        }
+    }
+}
